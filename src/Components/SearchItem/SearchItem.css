@@ -9,10 +9,105 @@
 }
 
 .search-item-image {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 220px;
     border-radius: 10px;
     object-fit: cover;
 }
 
-.si-description {}
+.si-description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.si-title {
+    font-size: 20px;
+    color: #0071c2;
+}
+
+.si-distance {
+    font-size: 12px;
+}
+
+.si-taxiOp {
+    font-size: 12px;
+    color: white;
+    background-color: #008009;
+    width: max-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.si-subTitle {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.si-feature {
+    font-size: 12px;
+}
+
+.si-cancelOp {
+    font-size: 12px;
+    font-weight: bold;
+    color: #008009;
+}
+
+.si-cancel-subTitle {
+    font-size: 12px;
+    color: #008009;
+}
+
+.si-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.si-ratings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.si-ratings>span {
+    font-weight: 500;
+}
+
+.si-ratings>button {
+    color: white;
+    background-color: #003580;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.si-details-text {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.si-details-text>button {
+    background-color: #0071c2;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    /* width: fit-content; */
+    cursor: pointer;
+}
+
+.si-price {
+    font-size: 24px;
+}
+
+.si-taxOp {
+    font-size: 12px;
+    color: gray;
+}
